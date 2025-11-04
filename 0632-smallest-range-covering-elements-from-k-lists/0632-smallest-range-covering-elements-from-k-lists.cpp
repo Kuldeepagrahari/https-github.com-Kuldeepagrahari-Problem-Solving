@@ -36,8 +36,6 @@ public:
                 mnDif = dif;
                 mnRange = {a, b};
             }
-           
-            cout << a << " " << b << endl;
         }
 
         return mnRange;
