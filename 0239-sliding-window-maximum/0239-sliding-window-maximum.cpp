@@ -7,11 +7,15 @@ public:
         vector<int> ans;
 
         for(; r < n; r++) {
+            // delete
             while(!q.empty() && nums[q.back()] < nums[r]) {
                 q.pop_back();
             }
 
+            // insert
             q.push_back(r);
+
+            // update
             if(r >= k - 1) {
                 int mx = nums[q.front()];
                 ans.push_back(mx);
