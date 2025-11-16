@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0079-word-search](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/0079-word-search) |
 | [0402-remove-k-digits](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/0402-remove-k-digits) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Dynamic Programming
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1636-number-of-substrings-with-only-1s](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1636-number-of-substrings-with-only-1s) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2288-count-operations-to-obtain-zero) |
 ## Simulation
 |  |
