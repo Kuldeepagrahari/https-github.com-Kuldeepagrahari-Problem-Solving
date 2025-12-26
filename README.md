@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/0402-remove-k-digits) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Dynamic Programming
 |  |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [2483-minimum-penalty-for-a-shop](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2618-maximize-the-minimum-powered-city) |
 ## Math
 |  |
