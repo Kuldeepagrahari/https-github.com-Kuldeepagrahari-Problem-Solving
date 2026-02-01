@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0759-set-intersection-size-at-least-two](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/0759-set-intersection-size-at-least-two) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1262-greatest-sum-divisible-by-three) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 ## Data Stream
 |  |
 | ------- |
@@ -187,4 +189,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1925-count-square-sum-triples](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1925-count-square-sum-triples) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 <!---LeetCode Topics End-->
