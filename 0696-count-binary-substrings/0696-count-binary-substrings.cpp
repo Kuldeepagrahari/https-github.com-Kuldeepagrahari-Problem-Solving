@@ -6,21 +6,6 @@ public:
         int ans = 0;
         int i = 0;
 
-        // for(; i < n - 1; i++) {
-        //     if(s[i] == s[i + 1]) {
-        //         pcnt++;
-        //     }
-        //     else 
-        //     {
-        //         break;
-        //     }
-        // }
-
-        // if(i < n - 1) {
-        //     ccnt = 1;
-        //     i++;
-        // }
-
         for(; i < n - 1; i++) {
             if(s[i] == s[i + 1]) ccnt++;
             else
