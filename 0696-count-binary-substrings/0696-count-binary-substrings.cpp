@@ -4,14 +4,24 @@ public:
         int n = s.length();
         int pcnt = 1, ccnt = 0;
         int ans = 0;
-        int i = 1;
-        for(; i < n; i++) {
-            if(s[i] != s[i - 1]) {
+        int i = 0;
+
+        for(; i < n - 1; i++) {
+            if(s[i] == s[i + 1]) {
+                pcnt++;
+            }
+            else 
+            {
                 break;
             }
-            pcnt++;
         }
-        if(i < n) ccnt = 1;
+
+        if(i < n - 1) {
+            ccnt = 1;
+            i++;
+        }
+        cout << i << " " << pcnt << endl;
+
         for(; i < n - 1; i++) {
             if(s[i] == s[i + 1]) ccnt++;
             else
@@ -20,6 +30,7 @@ public:
                 pcnt = ccnt;
                 ccnt = 1;
             }
+            cout << i << " "  << pcnt << endl;
         }
 
         ans += min(pcnt, ccnt);
