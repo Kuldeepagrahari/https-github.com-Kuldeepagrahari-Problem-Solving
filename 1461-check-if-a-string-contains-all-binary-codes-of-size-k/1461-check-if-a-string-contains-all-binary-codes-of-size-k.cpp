@@ -13,8 +13,6 @@ public:
             st.insert(ss);
         }
 
-        for(string s: st) cout << s << endl;
-
         return st.size() == numOfPossibleSubstrings;
 
         
