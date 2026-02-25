@@ -4,11 +4,8 @@ public:
         int seta = __builtin_popcount(a);
         int setb = __builtin_popcount(b);
 
-        if(seta < setb) {
-            return true;
-        }
-        else if(seta == setb) return a < b;
-        return false;
+        if(seta == setb) return a < b;
+        return seta < setb;
     }
 
 };
