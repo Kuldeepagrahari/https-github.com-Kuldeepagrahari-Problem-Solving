@@ -22,18 +22,19 @@ public:
 
             int v1 = u + 1;
             int v2 = u - 1;
-            if(v1 < n) {
-                if(!vis[v1]) {
-                    vis[v1] = true;
-                    q.push({v1, cost + 1});
+
+            for(int i = 0; i < 2; i++) {
+                int v;
+                if(i == 0) v = u - 1;
+                else v = u + 1;
+
+                if(v < n && v >= 0) {
+                    if(!vis[v]) {
+                        vis[v] = true;
+                        q.push({v, cost + 1});
+                    }
                 }
-            } 
-            if(v2 >= 0) {
-                if(!vis[v2]) {
-                    vis[v2] = true;
-                    q.push({v2, cost + 1});
-                }
-            } 
+            }
                 
             for(int v: mp[arr[u]]) {
                 if(!vis[v]) {
@@ -43,7 +44,7 @@ public:
             }
 
             mp.erase(arr[u]);
-            
+
         }
 
         return -1;
