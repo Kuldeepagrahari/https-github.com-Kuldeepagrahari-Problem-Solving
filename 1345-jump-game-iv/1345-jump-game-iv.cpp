@@ -7,17 +7,17 @@ public:
         for(int i = 0; i < n; i++) {
             mp[arr[i]].push_back(i);
         }
-        vector<vector<int>> adj(n);
-        for(int i = 0; i < n; i++) {
-            if(i + 1 < n)
-                adj[i].push_back(i + 1);
-            if(i - 1 >= 0)
-                adj[i].push_back(i - 1);
+        // vector<vector<int>> adj(n);
+        // for(int i = 0; i < n; i++) {
+        //     if(i + 1 < n)
+        //         adj[i].push_back(i + 1);
+        //     if(i - 1 >= 0)
+        //         adj[i].push_back(i - 1);
             
-            // for(int v: mp[arr[i]]) {
-            //     adj[i].push_back(v);
-            // }
-        }
+        //     // for(int v: mp[arr[i]]) {
+        //     //     adj[i].push_back(v);
+        //     // }
+        // }
 
         queue<pair<int, int>> q;
         q.push({0, 0});
@@ -31,12 +31,20 @@ public:
 
             if(u == n - 1) return cost;
 
-            for(int v: adj[u]) {
-                if(!vis[v]) {
-                    vis[v] = true;
-                    q.push({v, cost + 1});
+            int v1 = u + 1;
+            int v2 = u - 1;
+            if(v1 < n) {
+                if(!vis[v1]) {
+                    vis[v1] = true;
+                    q.push({v1, cost + 1});
                 }
-            }
+            } 
+            if(v2 >= 0) {
+                if(!vis[v2]) {
+                    vis[v2] = true;
+                    q.push({v2, cost + 1});
+                }
+            } 
             if(st.find(arr[u]) == st.end())
             {    
                 for(int v: mp[arr[u]]) {
