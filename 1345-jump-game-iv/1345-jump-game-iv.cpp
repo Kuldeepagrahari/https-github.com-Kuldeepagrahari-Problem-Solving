@@ -38,7 +38,7 @@ public:
                 }
             }
 
-            mp[arr[u]].clear();
+            mp.erase(arr[u]);
 
         }
 
