@@ -3,7 +3,7 @@ public:
     int minJumps(vector<int>& arr) {
         int n = arr.size();
 
-        map<int, vector<int>> mp;
+        unordered_map<int, vector<int>> mp;
         for(int i = 0; i < n; i++) {
             mp[arr[i]].push_back(i);
         }
@@ -12,16 +12,12 @@ public:
         q.push({0, 0});
         vector<bool> vis(n, false);
         vis[0] = true;
-        set<int> st;
     
         while(!q.empty()) {
             auto [u, cost] = q.front();
             q.pop();
 
             if(u == n - 1) return cost;
-
-            int v1 = u + 1;
-            int v2 = u - 1;
 
             for(int i = 0; i < 2; i++) {
                 int v;
