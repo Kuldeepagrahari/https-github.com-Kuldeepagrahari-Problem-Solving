@@ -21,8 +21,7 @@ public:
 
             for(int i = 0; i < 2; i++) {
                 int v;
-                if(i == 0) v = u - 1;
-                else v = u + 1;
+                i == 0 ? v = u - 1 : v = u + 1;
 
                 if(v < n && v >= 0) {
                     if(!vis[v]) {
@@ -39,7 +38,7 @@ public:
                 }
             }
 
-            mp.erase(arr[u]);
+            mp[arr[u]].clear();
 
         }
 
