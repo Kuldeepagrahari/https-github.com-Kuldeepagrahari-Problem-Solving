@@ -9,7 +9,9 @@ public:
             int rowPrefixSum = 0;
             for(int j = 0; j < m; j++) {
                 rowPrefixSum += grid[i][j];
+                // modifying grid intentionally and updating with prefixSum upto (i, j)
                 grid[i][j] = (i - 1 >= 0 ? grid[i - 1][j] : 0) + rowPrefixSum;
+                int prefixSum = grid[i][j];
                 if(grid[i][j] <= k)
                     cnt += 1;
             }
