@@ -6,6 +6,8 @@ public:
         int subMatrices = 0;
 
         vector<vector<pair<int, int>>> preCnt(n, vector<pair<int, int>>(m));
+        vector<pair<int, int>> cur(m);
+        vector<pair<int, int>> prev(m);
 
         for(int i = 0; i < n; i++) {
             int rowXCnt = 0;
@@ -17,14 +19,16 @@ public:
                 else if(grid[i][j] == 'Y') 
                     rowYCnt++;
 
-                int xCnt = (i >= 1 ? preCnt[i - 1][j].first : 0) + rowXCnt;
-                int yCnt = (i >= 1 ? preCnt[i - 1][j].second : 0) + rowYCnt;
-                preCnt[i][j] = {xCnt, yCnt};
+                int xCnt = (i >= 1 ? prev[j].first : 0) + rowXCnt;
+                int yCnt = (i >= 1 ? prev[j].second : 0) + rowYCnt;
+                cur[j] = {xCnt, yCnt};
 
                 if(xCnt == yCnt && xCnt > 0) {
                     subMatrices++;
                 }
             }
+
+            prev = cur;
         }
 
         return subMatrices;
