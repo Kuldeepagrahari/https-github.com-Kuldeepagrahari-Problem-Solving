@@ -11,14 +11,14 @@ public:
         // 5 0 3 4 0
         // 3-0 3-
         vector<pair<long long, long long>> L(n);
-        map<int, pair<long long, long long>> mp;
+        unordered_map<int, pair<long long, long long>> mp;
         for(int i = 0; i < n; i++) {
             mp[nums[i]].first += i;
             mp[nums[i]].second ++;
             L[i] = {mp[nums[i]].first, mp[nums[i]].second};
         }
         vector<pair<long long, long>> R(n);
-        map<int, pair<long long, long long>> mp2;
+        unordered_map<int, pair<long long, long long>> mp2;
         for(int i = n - 1; i >= 0; i--) {
             mp2[nums[i]].first += i;
             mp2[nums[i]].second ++;
