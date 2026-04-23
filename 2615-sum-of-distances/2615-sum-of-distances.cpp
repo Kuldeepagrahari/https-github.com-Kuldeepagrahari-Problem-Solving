@@ -4,31 +4,32 @@ public:
         int n = nums.size();
         vector<long long> ans(n);
 
-        //  dif(r, l) + i * (#l - #r)
-        vector<pair<long long, long long>> L(n);
-        unordered_map<int, pair<long long, long long>> mp;
-        vector<pair<long long, long>> R(n);
-        unordered_map<int, pair<long long, long long>> mp2;
+        unordered_map<int, vector<int>> mp;
 
+        for(int i = 0; i < n; i++)
+            mp[nums[i]].push_back(i);
 
-        for(int i = 0; i < n; i++) {
-            mp[nums[i]].first += i;
-            mp[nums[i]].second ++;
-            L[i] = {mp[nums[i]].first, mp[nums[i]].second};
+        for(auto &it : mp){
+            auto &pos = it.second;
 
-            int j = n - i - 1;
-            mp2[nums[j]].first += j;
-            mp2[nums[j]].second ++;
-            R[j] = {mp2[nums[j]].first, mp2[nums[j]].second};
-        }
+            long long sum = 0;
+            for(int x : pos) sum += x;
 
-        for(int i = 0; i < n; i++) {
-            long long sum = (R[i].first - L[i].first) + i * (L[i].second - R[i].second);
-            ans[i] = sum;
+            long long leftSum = 0;
+            int m = pos.size(); // total cnt of occ of it.first
+
+            for(int i = 0; i < m; i++){
+                long long rightSum = sum - leftSum - pos[i];
+                int cntl = i;
+                int cntr = m - i - 1;
+                int index = pos[i];
+
+                ans[pos[i]] = (rightSum - leftSum) + index* 1LL * (cntl - cntr);
+
+                leftSum += pos[i];
+            }
         }
 
         return ans;
-
-        
     }
 };
