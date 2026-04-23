@@ -3,26 +3,23 @@ public:
     vector<long long> distance(vector<int>& nums) {
         int n = nums.size();
         vector<long long> ans(n);
-        // 5 0 2-0 + 3-2
 
-        // 0 1 2 5 4    4-2 + 5-2*2 = dif(r, l) + i * (#l - #r)
-        // 5 1 5 3 4
-
-        // 5 0 3 4 0
-        // 3-0 3-
+        //  dif(r, l) + i * (#l - #r)
         vector<pair<long long, long long>> L(n);
         unordered_map<int, pair<long long, long long>> mp;
+        vector<pair<long long, long>> R(n);
+        unordered_map<int, pair<long long, long long>> mp2;
+
+
         for(int i = 0; i < n; i++) {
             mp[nums[i]].first += i;
             mp[nums[i]].second ++;
             L[i] = {mp[nums[i]].first, mp[nums[i]].second};
-        }
-        vector<pair<long long, long>> R(n);
-        unordered_map<int, pair<long long, long long>> mp2;
-        for(int i = n - 1; i >= 0; i--) {
-            mp2[nums[i]].first += i;
-            mp2[nums[i]].second ++;
-            R[i] = {mp2[nums[i]].first, mp2[nums[i]].second};
+
+            int j = n - i - 1;
+            mp2[nums[j]].first += j;
+            mp2[nums[j]].second ++;
+            R[j] = {mp2[nums[j]].first, mp2[nums[j]].second};
         }
 
         for(int i = 0; i < n; i++) {
