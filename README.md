@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3637-trionic-array-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3637-trionic-array-i) |
 | [3640-trionic-array-ii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3640-trionic-array-ii) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3863-power-grid-maintenance](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3863-power-grid-maintenance) |
 ## String
 |  |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [3640-trionic-array-ii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3640-trionic-array-ii) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Greedy
 |  |
 | ------- |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1559-detect-cycles-in-2d-grid) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Stack
 |  |
 | ------- |
