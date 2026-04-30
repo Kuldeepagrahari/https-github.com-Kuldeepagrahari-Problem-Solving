@@ -1,9 +1,8 @@
 class Solution {
 public:
     int solve(int row, int col, int cost, int k, vector<vector<int>>& grid, vector<vector<vector<int>>>& dp) {
-        
-        int loc_cost =  (grid[row][col] == 0 ? cost : cost + 1);
         int n = grid.size(), m = grid[0].size();
+        int loc_cost =  (grid[row][col] == 0 ? cost : cost + 1);
 
         if(loc_cost > k)
             return -1e9;
@@ -17,10 +16,11 @@ public:
         
         int right_score = -1e9, down_score = -1e9;
 
-        // go to right
+        // go right
         if(col + 1 < m)
             right_score = grid[row][col] + solve(row, col + 1, loc_cost, k, grid, dp);
-            
+        
+        // go down
         if(row + 1 < n)
             down_score = grid[row][col] + solve(row + 1, col, loc_cost, k, grid, dp);
     
