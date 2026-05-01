@@ -18,8 +18,10 @@ public:
         int rot_ind = n - 1;
 
         while(rot_ind >= 0) {
-            F -= (n - 1) * nums[rot_ind];
-            F += (sum - nums[rot_ind]);
+            int rot_key = nums[rot_ind];
+            int reduction = (n - 1) * rot_key;
+            int addition =  (sum - rot_key);
+            F += (addition - reduction);
             rot_ind--;
             ans = max(ans, F);
         }
