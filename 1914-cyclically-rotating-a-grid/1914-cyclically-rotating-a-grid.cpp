@@ -12,45 +12,54 @@ public:
 
             // l -> r
             for(int i = cc; i < m - cc; i++) {
-                elem.push_back(grid[cr][i]);
+                int row = cr, col = i;
+                elem.push_back(grid[row][col]);
             }
 
             // t -> b
             for(int i = cr + 1; i < n - cr; i++) {
-                elem.push_back(grid[i][m - cc - 1]);
+                int row = i, col = m - cc - 1;
+                elem.push_back(grid[row][col]);
             }
 
             // r -> l
             for(int i = m - cc - 2; i >= cc; i--) {
-                elem.push_back(grid[n - cr - 1][i]);
+                int row = n - cr - 1, col = i;
+                elem.push_back(grid[row][col]);
             }
 
             // b -> t
             for(int i = n - cr - 2; i >= cr + 1; i--) {
-                elem.push_back(grid[i][cc]);
+                int row = i, col = cc;
+                elem.push_back(grid[row][col]);
             }
 
             int rot = k % (elem.size());
             rotate(elem.begin(), elem.begin() + rot, elem.end());
+
             int j = 0;
              // l -> r
             for(int i = cc; i < m - cc; i++) {
-                grid[cr][i] = elem[j++];
+                int row = cr, col = i;
+                grid[row][col] = elem[j++];
             }
 
             // t -> b
             for(int i = cr + 1; i < n - cr; i++) {
-                grid[i][m - cc - 1] = elem[j++];
+                int row = i, col = m - cc - 1;
+                grid[row][col] = elem[j++];
             }
 
             // r -> l
             for(int i = m - cc - 2; i >= cc; i--) {
-                grid[n - cr - 1][i] = elem[j++];
+                int row = n - cr - 1, col = i;
+                grid[row][col] = elem[j++];
             }
 
             // b -> t
             for(int i = n - cr - 2; i >= cr + 1; i--) {
-                grid[i][cc] = elem[j++];
+                int row = i, col = cc;
+                grid[row][col] = elem[j++];
             }
 
             cr++;
