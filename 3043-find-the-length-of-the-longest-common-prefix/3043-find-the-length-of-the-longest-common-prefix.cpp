@@ -4,41 +4,23 @@ public:
         unordered_set<int> st;
 
         for(int x: arr2) {
-            int pref = 0;
-            stack<int> sc;
             while(x) {
-                int dig = x % 10;
-                sc.push(dig);
+                st.insert(x);
                 x /= 10;
-            }
-
-            while(!sc.empty()) {
-                pref += sc.top();
-                sc.pop();
-                st.insert(pref);
-                pref *= 10;
             }
         }
 
         int ans = 0;
 
         for(int x: arr1) {
-            int pref = 0;
-            stack<int> sc;
+            int len = log(x) / log(10) + 1;
             while(x) {
-                int dig = x % 10;
-                sc.push(dig);
-                x /= 10;
-            }
-
-            while(!sc.empty()) {
-                pref += sc.top();
-                sc.pop();
-                if(st.find(pref) != st.end()) {
-                    int len = log(pref) / log(10) + 1;
+                if(st.find(x) != st.end()) {
                     ans = max(ans, len);
+                    break;
                 }
-                pref *= 10;
+                x /= 10;
+                len--;
             }
         }
 
