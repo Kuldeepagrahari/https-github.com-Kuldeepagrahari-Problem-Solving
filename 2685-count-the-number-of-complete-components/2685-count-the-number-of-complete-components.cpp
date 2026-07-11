@@ -27,7 +27,7 @@ public:
             if(vis[i] == false) {
                 int num_vert = 0, num_edges = 0;
                 dfs(i, num_vert, num_edges, vis, adj);
-                cout << num_vert << " " << num_edges << endl;
+                
                 if(num_vert * (num_vert - 1) == num_edges) {
                     num_connected_comp++;
                 }
