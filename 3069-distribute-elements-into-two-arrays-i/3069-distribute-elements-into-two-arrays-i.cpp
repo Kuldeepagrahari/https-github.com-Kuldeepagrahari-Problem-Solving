@@ -3,28 +3,31 @@ public:
     vector<int> resultArray(vector<int>& nums) {
         int n = nums.size();
 
-        vector<int> arr1, arr2;
-        arr1.push_back(nums[0]);
-        arr2.push_back(nums[1]);
+        vector<int> result(n);
+        result[0] = nums[0];
+        result[n - 1] = nums[1];
+        int j1 = 1, j2 = n - 2;
+        int i1 = 0, i2 = 1;
 
-        for(int i = 2; i < n; i++) {
-            if(arr1.back() > arr2.back()) {
-                arr1.push_back(nums[i]);
+        for(int idx = 2; idx < n; idx++) {
+            if(nums[i1] > nums[i2]) {
+                i1 = idx;
+                result[j1++] = nums[i1];
             }
             else {
-                arr2.push_back(nums[i]);
+                i2 = idx;
+                result[j2--] = nums[i2];
             }
         }
 
-        vector<int> result(n);
-    
-        int j = 0;
-        for(int i = 0; i < n; i++) {
-            if(i < arr1.size())
-                result[i] = arr1[i];
-            else 
-                result[i] = arr2[j++];
+        // reverse arr2
+        j2++;
+        int rev2 = n - 1;
+        int n2 = n - j2;
+        for(int idx = 0; idx < n2/2; idx++) {
+            swap(result[j2++], result[rev2--]);
         }
+
 
         return result;
     }
