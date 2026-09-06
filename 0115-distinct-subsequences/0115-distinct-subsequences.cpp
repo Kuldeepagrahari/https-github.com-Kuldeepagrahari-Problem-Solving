@@ -22,9 +22,25 @@ public:
     int numDistinct(string s, string t) {
 
         int n = s.length(), m = t.length();
-        vector<vector<int>> dp(n, vector<int>(m, -1));
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+
+        for(int sIdx = 0; sIdx <= n; sIdx++) {
+            dp[sIdx][m] = 1;
+        }
         
-        return solve(0, 0, s, t, dp);
+        for(int sIdx = n - 1; sIdx >= 0; sIdx--) {
+            for(int tIdx = m - 1; tIdx >= 0; tIdx--) {
+                unsigned int take = 0, notTake = 0;
+
+                if(s[sIdx] == t[tIdx]) {
+                    take = dp[sIdx + 1][tIdx + 1];
+                }
+                notTake = dp[sIdx + 1][tIdx];
+
+                dp[sIdx][tIdx] = take + notTake;
+            }
+        }
+        return dp[0][0];
     }
        
 };
