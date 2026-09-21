@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3379-transformed-array](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3379-transformed-array) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3524-find-x-value-of-array-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3524-find-x-value-of-array-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1872-stone-game-viii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1872-stone-game-viii) |
+| [3524-find-x-value-of-array-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3524-find-x-value-of-array-i) |
 | [3640-trionic-array-ii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3640-trionic-array-ii) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Greedy
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2288-count-operations-to-obtain-zero](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2288-count-operations-to-obtain-zero) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
+| [3524-find-x-value-of-array-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3524-find-x-value-of-array-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
