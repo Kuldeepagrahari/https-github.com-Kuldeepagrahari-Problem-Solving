@@ -10,23 +10,19 @@ public:
                 return;
             }
 
-            if(open == n) {
-                s.push_back(')');
-                f(open, close + 1, s);
-                s.pop_back();
-            }
-            else if(open > close) {
-                s.push_back('(');
-                f(open + 1, close, s);
-                s.pop_back();
-                s.push_back(')');
-                f(open, close + 1, s);
-                s.pop_back();
-            }
-            else {
-                s.push_back('(');
-                f(open + 1, close, s);
-                s.pop_back();
+            else if(open >= close) {
+                if(open < n)
+                { 
+                    s.push_back('(');
+                    f(open + 1, close, s);
+                    s.pop_back();
+                }
+                if(close < open)
+                {
+                    s.push_back(')');
+                    f(open, close + 1, s);
+                    s.pop_back();
+                }
             }
 
         };
