@@ -20,13 +20,8 @@ public:
             if(zero == 0) {
                 ans[i] = prod / x;
             }
-            else if(zero == 1) {
-                if(x == 0) {
-                    ans[i] = prod;
-                }
-                else {
-                    ans[i] = 0;
-                }
+            else if(zero == 1 && x == 0) {
+                ans[i] = prod;
             }
             else {
                 ans[i] = 0;
