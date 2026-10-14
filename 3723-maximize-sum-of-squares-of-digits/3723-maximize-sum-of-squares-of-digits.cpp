@@ -1,16 +1,16 @@
 class Solution {
 public:
     string maxSumOfSquares(int num, int sum) {
-        string ans = "";
+        string ans;
 
         while(sum > 0 && num > 0) {
             num--;
             if(sum > 9) {
-                ans += '9';
+                ans.push_back('9');
                 sum -= 9;
             }
             else {
-                ans += (sum + '0');
+                ans.push_back(sum + '0');
                 sum = 0;
                 break;
             }
@@ -21,7 +21,7 @@ public:
         }
 
         while(num > 0) {
-            ans += '0';
+            ans.push_back('0');
             num--;
         }
 
