@@ -1,6 +1,7 @@
 class Solution {
 public:
     string maxSumOfSquares(int num, int sum) {
+        if(num * 9 < sum) return "";
         string ans;
 
         while(sum > 0 && num > 0) {
@@ -14,10 +15,6 @@ public:
                 sum = 0;
                 break;
             }
-        }
-
-        if(num == 0 && sum > 0) {
-            return "";
         }
 
         while(num > 0) {
