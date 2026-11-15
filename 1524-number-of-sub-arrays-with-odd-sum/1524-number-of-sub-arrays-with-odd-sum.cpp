@@ -6,7 +6,7 @@ public:
         int n = arr.size();
 
         int prefix_sum = 0;
-        long int odd_cnt = 0, even_cnt = 0;
+        int odd_cnt = 0, even_cnt = 0;
         int ans = 0;
 
         for(int i = 0; i < n; i++) {
