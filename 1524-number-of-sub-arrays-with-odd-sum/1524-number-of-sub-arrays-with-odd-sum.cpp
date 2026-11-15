@@ -13,16 +13,16 @@ public:
             prefix_sum += arr[i];
 
             if(prefix_sum & 1) {
-                ans++; // the complete prefix array is also a valid target
-                ans = (ans + even_cnt) % MOD; // removing all the even sum prefixes will give valid targets
+                ans++; // the complete prefix array is also an odd sum subarray
+                ans = (ans + even_cnt) % MOD; // removing all the even sum prefixes will give odd subarrays
                 odd_cnt++;
             }
             else {
-                ans = (ans + odd_cnt) % MOD;
+                ans = (ans + odd_cnt) % MOD; // removing all the odd sum prefixes will give even subarrays
                 even_cnt++;
             }
         }
-        // sum k tar = ps - k   tar = 
+
         return ans;
     }
 };
