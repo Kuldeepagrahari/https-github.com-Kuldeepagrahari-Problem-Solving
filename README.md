@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2833-furthest-point-from-origin](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2833-furthest-point-from-origin) |
 | [2911-minimum-changes-to-make-k-semi-palindromes](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2911-minimum-changes-to-make-k-semi-palindromes) |
+| [2914-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2914-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
