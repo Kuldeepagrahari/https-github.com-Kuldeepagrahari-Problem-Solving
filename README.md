@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2126-destroying-asteroids](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2126-destroying-asteroids) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2615-sum-of-distances](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2615-sum-of-distances) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2784-check-if-array-is-good](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2784-check-if-array-is-good) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1833-maximum-ice-cream-bars](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1833-maximum-ice-cream-bars) |
 | [2126-destroying-asteroids](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2126-destroying-asteroids) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3723-maximize-sum-of-squares-of-digits) |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1833-maximum-ice-cream-bars](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/1833-maximum-ice-cream-bars) |
 | [2126-destroying-asteroids](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2126-destroying-asteroids) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2784-check-if-array-is-good](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/2784-check-if-array-is-good) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/Kuldeepagrahari/https-github.com-Kuldeepagrahari-Problem-Solving/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
